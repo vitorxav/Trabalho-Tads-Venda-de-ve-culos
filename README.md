@@ -1,14 +1,10 @@
-# Desenvolvimento de Aplicações Distribuídas
+# Desenvolvimento de Trabalho prático TADS
 Repositório para publicação das resoluções dos exercícios de Laboratório das disciplinas de programação da PUC Minas!
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno
+* Vitor Emanuel Dias Xavier
 
 ## Professor responsável
 
-* Nome completo do professor
-
-## Instruções de Uso
-
-* Apresentar instruções de como o trabalho pode ser replicado/reproduzido.
+* Ramon Lacerda Marques
