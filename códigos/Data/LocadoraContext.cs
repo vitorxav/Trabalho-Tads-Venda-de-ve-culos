@@ -12,6 +12,7 @@
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Funcionario> Funcionarios { get; set; }
         public DbSet<Aluguel> Alugueis { get; set; }
+        public DbSet<Pagamento> Pagamentos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -46,6 +47,12 @@
                 .HasOne(a => a.Funcionario)
                 .WithMany(f => f.Alugueis)
                 .HasForeignKey(a => a.FuncionarioId);
+
+            modelBuilder.Entity<Pagamento>()
+                .HasOne(p => p.Aluguel)
+                .WithOne(a => a.Pagamento)
+                .HasForeignKey<Pagamento>(p => p.IdAluguel)
+                .OnDelete(DeleteBehavior.Cascade);
 
 
             base.OnModelCreating(modelBuilder);

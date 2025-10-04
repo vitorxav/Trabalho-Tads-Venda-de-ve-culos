@@ -18,6 +18,8 @@
 
         public int FuncionarioId { get; set; }
         public Funcionario Funcionario { get; set; }
+
+        public Pagamento Pagamento { get; set; }
     }
 
 }
