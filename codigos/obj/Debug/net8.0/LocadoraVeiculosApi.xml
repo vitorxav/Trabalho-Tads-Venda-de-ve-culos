@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LocadoraVeiculosApi</name>
+    </assembly>
+    <members>
+        <member name="T:LocadoraVeiculosApi.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:LocadoraVeiculosApi.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LocadoraVeiculosApi.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LocadoraVeiculosApi.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:LocadoraVeiculosApi.Migrations.AjustesModelo">
+            <inheritdoc />
+        </member>
+        <member name="M:LocadoraVeiculosApi.Migrations.AjustesModelo.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LocadoraVeiculosApi.Migrations.AjustesModelo.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LocadoraVeiculosApi.Migrations.AjustesModelo.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
